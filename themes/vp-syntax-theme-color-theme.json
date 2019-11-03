@@ -819,7 +819,7 @@
 				"meta.brace.round.js ",
 				"keyword.operator.spread.js",
 				"keyword.operator.logical.js",
-				"meta.block.js punctuation.definition.block.js",
+				"meta.block.js punctuation.definition.block.js"
 			],
 			"settings": {
 				"foreground": "#a359a8"
@@ -828,7 +828,8 @@
 		{
 			"name": "JavaScript - Keyword",
 			"scope": [
-				"keyword.control.flow.js"
+				"keyword.control.flow.js",
+				"keyword.control.as.js",
 			],
 			"settings": {
 				"foreground": "#d86464"
@@ -930,6 +931,15 @@
 			],
 			"settings": {
 				"foreground": "#649891"
+			}
+		},
+		{
+			"name": "JavaScript - Import",
+			"scope": [
+				"constant.language.import-export-all.js",
+			],
+			"settings": {
+				"foreground": "#a7a7a7"
 			}
 		},
 		{
