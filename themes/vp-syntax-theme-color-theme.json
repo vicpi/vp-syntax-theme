@@ -618,7 +618,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#c7c7c7"
 			}
 		},
 		{
@@ -628,6 +628,16 @@
 			],
 			"settings": {
 				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Markdown - Link",
+			"scope": [
+				"text.html.markdown markup.underline.link.markdown",
+				"text.html.markdown string.other.link.title.markdown"
+			],
+			"settings": {
+				"foreground": "#5aa0e5"
 			}
 		},
 		{
@@ -644,10 +654,11 @@
 			"scope": [
 				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
-				"markup.heading.markdown punctuation.definition.heading.markdown"
+				"markup.heading.markdown punctuation.definition.heading.markdown",
+				"entity.name.section.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#C1B660"
 			}
 		},
 		{
