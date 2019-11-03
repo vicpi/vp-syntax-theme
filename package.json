@@ -1,0 +1,22 @@
+{
+    "name": "vp-syntax-theme",
+    "displayName": "vp-syntax-theme",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "vpyskunov",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vp-syntax-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vp-syntax-theme-color-theme.json"
+            }
+        ]
+    }
+}
