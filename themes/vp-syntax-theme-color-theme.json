@@ -828,12 +828,16 @@
 				"meta.object-literal.key.js punctuation.separator.key-value.js",
 				"punctuation.definition.section.case-statement.js ",
 				"meta.brace.round.js ",
+				"keyword.operator.arithmetic.js",
 				"keyword.operator.spread.js",
 				"keyword.operator.logical.js",
+				"keyword.operator.comparison.js",
+				"keyword.operator.assignment.js",
+				"punctuation.terminator.statement",
 				"meta.block.js punctuation.definition.block.js"
 			],
 			"settings": {
-				"foreground": "#a359a8"
+				"foreground": "#a481df"
 			}
 		},
 		{
@@ -895,7 +899,7 @@
 				"source.js meta.var.expr.js storage.type.js"
 			],
 			"settings": {
-				"foreground": "#5aa0e5"
+				"foreground": "#d86464"
 			}
 		},
 		{
