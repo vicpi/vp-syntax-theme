@@ -112,7 +112,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#7aa11a"
 			}
 		},
 		{
@@ -882,7 +882,8 @@
 		{
 			"name": "JavaScript - Function",
 			"scope": [
-				"entity.name.function.js"
+				"entity.name.function.js",
+				"support.function.js"
 			],
 			"settings": {
 				"foreground": "#7aa11a"
