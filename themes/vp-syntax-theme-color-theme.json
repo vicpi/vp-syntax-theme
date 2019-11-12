@@ -819,6 +819,43 @@
 			}
 		},
 		{
+			"name": "Handlebars - Tag",
+			"scope": [
+				"text.html.handlebars meta.tag.block.any.html punctuation.definition.tag.html ",
+				"text.html.handlebars meta.tag.block.any.html entity.name.tag.block.any.html ",
+				"text.html.handlebars meta.tag.structure.any.html punctuation.definition.tag.html "
+			],
+			"settings": {
+				"foreground": "#d86464"
+			}
+		},
+		{
+			"name": "Handlebars - Attribute name",
+			"scope": [
+				"text.html.handlebars meta.tag.block.any.html entity.other.attribute-name.html entity.other.attribute-name.generic",
+				"text.html.handlebars meta.tag.structure.any.html entity.other.attribute-name.id.html",
+				"text.html.handlebars meta.tag.block.any.html entity.other.attribute-name.id.html",
+				"text.html.handlebars meta.tag.any.html entity.other.attribute-name.html entity.other.attribute-name.generic",
+				"text.html.handlebars meta.tag.structure.any.html entity.other.attribute-name.html entity.other.attribute-name.generic"
+			],
+			"settings": {
+				"foreground": "#7aa11a"
+			}
+		},
+		{
+			"name": "Handlebars - Attribute value",
+			"scope": [
+				"text.html.handlebars meta.structure.any.html string.quoted.double.handlebars ",
+				"text.html.handlebars meta.structure.any.html string.quoted.double.handlebars punctuation.definition.string.begin.html ",
+				"text.html.handlebars meta.structure.any.html string.quoted.double.handlebars punctuation.definition.string.end.html ",
+				"text.html.handlebars meta.tag.block.any.html string.quoted.double.handlebars ",
+				"text.html.handlebars meta.tag.block.any.html string.quoted.double.handlebars "
+			],
+			"settings": {
+				"foreground": "#C1B660"
+			}
+		},
+		{
 			"name": "JavaScript - Punctuation",
 			"scope": [
 				"punctuation.accessor.js",
@@ -914,6 +951,8 @@
 		{
 			"name": "JavaScript - Boolean",
 			"scope": [
+				"constant.language.boolean.undefined.js",
+				"constant.language.boolean.null.js",
 				"constant.language.boolean.false.js ",
 				"constant.language.boolean.true.js"
 			],
