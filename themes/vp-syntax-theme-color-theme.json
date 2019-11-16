@@ -147,7 +147,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#a7a7a7"
 			}
 		},
 		{
@@ -615,10 +615,11 @@
 			"name": "Markdown - Plain",
 			"scope": [
 				"text.html.markdown",
+				"text.html.markdown meta.paragraph.markdown",
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#c7c7c7"
+				"foreground": "#a7a7a7"
 			}
 		},
 		{
@@ -882,9 +883,13 @@
 			"scope": [
 				"keyword.control.flow.js",
 				"keyword.control.as.js",
+				"keyword.control",
+				"variable.language.this.js",
+				"variable.language.super.js"
 			],
 			"settings": {
-				"foreground": "#d86464"
+				"foreground": "#d86464",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -952,7 +957,7 @@
 			"name": "JavaScript - Boolean",
 			"scope": [
 				"constant.language.boolean.undefined.js",
-				"constant.language.boolean.null.js",
+				"constant.language.null.js",
 				"constant.language.boolean.false.js ",
 				"constant.language.boolean.true.js"
 			],
