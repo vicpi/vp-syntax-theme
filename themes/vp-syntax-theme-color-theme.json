@@ -651,15 +651,35 @@
 			}
 		},
 		{
+			"name": "Markdown - List",
+			"scope": [
+				"text.html.markdown markup.list.numbered.markdown punctuation.definition.list.begin.markdown",
+				"text.html.markdown markup.list.unnumbered.markdown punctuation.definition.list.begin.markdown"
+			],
+			"settings": {
+				"foreground": "#C2A536"
+			}
+		},
+		{
 			"name": "Markdown - Heading",
 			"scope": [
 				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
 				"markup.heading.markdown punctuation.definition.heading.markdown",
-				"entity.name.section.markdown"
+				"entity.name.section.markdown",
+				"text.html.markdown markup.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C1B660"
+				"foreground": "#d86464"
+			}
+		},
+		{
+			"name": "Markdown - Link",
+			"scope": [
+				"text.html.markdown meta.paragraph.markdown meta.link.inline.markdown punctuation.definition.metadata.markdown"
+			],
+			"settings": {
+				"foreground": "#C2A536"
 			}
 		},
 		{
