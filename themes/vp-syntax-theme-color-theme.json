@@ -683,6 +683,16 @@
 			}
 		},
 		{
+			"name": "Markdown - Italic",
+			"scope": [
+				"text.html.markdown meta.paragraph.markdown markup.italic.markdown",
+				"text.html.markdown meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.markdown"
+			],
+			"settings": {
+				"foreground": "#5aa0e5"
+			}
+		},
+		{
 			"name": "Markup - Italic",
 			"scope": [
 				"markup.italic"
