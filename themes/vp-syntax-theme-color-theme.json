@@ -889,23 +889,43 @@
 		{
 			"name": "JavaScript - Punctuation",
 			"scope": [
-				"punctuation.accessor.js",
 				"punctuation.separator.comma.js",
 				"punctuation.definition.block.js",
+				"punctuation.definition.block.tsx",
+				"punctuation.definition.block.ts",
 				"punctuation.separator.parameter.js",
 				"meta.object-literal.key.js punctuation.separator.key-value.js",
+				"punctuation.separator.key-value.ts",
 				"punctuation.definition.section.case-statement.js ",
 				"meta.brace.round.js ",
 				"keyword.operator.arithmetic.js",
 				"keyword.operator.spread.js",
 				"keyword.operator.logical.js",
 				"keyword.operator.comparison.js",
-				"keyword.operator.assignment.js",
+				"keyword.operator.comparison.ts",
 				"punctuation.terminator.statement",
-				"meta.block.js punctuation.definition.block.js"
+				"meta.block.js punctuation.definition.block.js",
+				"punctuation.separator.comma.tsx",
+				"punctuation.separator.comma.ts",
+				"keyword.operator.assignment.tsx",
+				"keyword.operator.assignment.ts",
+				"keyword.operator.assignment.js",
+				"keyword.operator.spread.ts",
+				"punctuation.definition.section.case-statement.ts",
 			],
 			"settings": {
 				"foreground": "#a481df"
+			}
+		},
+		{
+			"name": "JavaScript TypeScript - Assignment",
+			"scope": [
+				"punctuation.accessor.js",
+				"punctuation.accessor.tsx",
+				"punctuation.accessor.ts",
+			],
+			"settings": {
+				"foreground": "#a7a7a7"
 			}
 		},
 		{
@@ -929,8 +949,12 @@
 				"variable.other.object.js",
 				"variable.other.property.js",
 				"variable.other.readwrite.js",
+				"variable.other.readwrite.ts",
+				"variable.other.readwrite.alias.ts",
 				"variable.other.object.property.js",
 				"variable.other.readwrite.alias.js",
+				"variable.other.object.ts",
+				"variable.other.property.ts",
 			],
 			"settings": {
 				"foreground": "#a7a7a7"
@@ -940,6 +964,9 @@
 			"name": "JavaScript - Object Property",
 			"scope": [
 				"meta.object-literal.key.js",
+				"meta.object-literal.key.ts",
+				"meta.objectliteral.ts punctuation.definition.block.ts",
+				"meta.object.member.ts variable.other.readwrite.ts",
 			],
 			"settings": {
 				"foreground": "#649891"
@@ -949,7 +976,10 @@
 			"name": "JavaScript - Parameters",
 			"scope": [
 				"punctuation.definition.parameters",
-				"variable.parameter.js"
+				"variable.parameter.js",
+				"meta.parameters.tsx meta.parameter.object-binding-pattern.tsx punctuation.definition.binding-pattern.object.tsx",
+				"variable.parameter.tsx",
+				"variable.parameter.ts",
 			],
 			"settings": {
 				"foreground": "#D19A66"
@@ -977,7 +1007,9 @@
 		{
 			"name": "JavaScript - Arrow",
 			"scope": [
-				"storage.type.function.arrow.js "
+				"storage.type.function.arrow.js",
+				"storage.type.function.arrow.tsx",
+				"storage.type.function.arrow.ts",
 			],
 			"settings": {
 				"foreground": "#D19A66"
@@ -1038,7 +1070,11 @@
 				"source.js meta.tag.js entity.name.tag.js",
 				"source.js meta.tag.js punctuation.definition.tag.begin.js",
 				"source.js meta.tag.js punctuation.definition.tag.end.js",
-				"source.js meta.tag.js support.class.component.js"
+				"source.js meta.tag.js support.class.component.js",
+				"punctuation.definition.tag.begin.tsx",
+				"punctuation.definition.tag.end.tsx",
+				"entity.name.tag.tsx",
+				"entity.name.tag.tsx support.class.component.tsx",
 			],
 			"settings": {
 				"foreground": "#5aa0e5"
@@ -1049,6 +1085,9 @@
 			"scope": [
 				"source.js meta.tag.js entity.other.attribute-name.js",
 				"source.js meta.tag.js keyword.operator.assignment.js",
+				"entity.other.attribute-name.tsx",
+				"punctuation.section.embedded.begin.tsx",
+				"punctuation.section.embedded.end.tsx",
 			],
 			"settings": {
 				"foreground": "#a481df"
@@ -1062,6 +1101,75 @@
 			"settings": {
 				"foreground": "#a7a7a7"
 			}
-		}
+		},
+		{
+			"name": "TypeScript - Import",
+			"scope": [
+				"source.tsx meta.import.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+				"source.tsx meta.import.tsx meta.block.tsx variable.other.readwrite.tsx"
+			],
+			"settings": {
+				"foreground": "#a7a7a7"
+			}
+		},
+		{
+			"name": "TypeScript - Type",
+			"scope": [
+				"source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx",
+				"source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx keyword.operator.type.annotation.tsx",
+				"source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.type.annotation.tsx entity.name.type.module.tsx",
+				"source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.type.annotation.tsx punctuation.accessor.tsx",
+				"source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.type.annotation.tsx entity.name.type.tsx",
+				"punctuation.definition.typeparameters.begin.tsx",
+				"punctuation.definition.typeparameters.begin.ts",
+				"punctuation.definition.typeparameters.end.tsx",
+				"punctuation.definition.typeparameters.end.ts",
+				"meta.type.annotation.tsx keyword.operator.type.annotation.tsx",
+				"meta.type.annotation.tsx support.type.primitive.tsx",
+				"meta.type.annotation.tsx entity.name.type.tsx",
+				"entity.name.type.interface.tsx",
+				"entity.name.type.interface.ts",
+				"keyword.operator.type.annotation.ts",
+				"support.type.primitive.ts",
+				"entity.name.type.ts",
+			],
+			"settings": {
+				"foreground": "#5aa0e5"
+			}
+		},
+		{
+			"name": "TypeScript - Variable",
+			"scope": [
+				"variable.other.constant.tsx",
+				"variable.other.constant.ts",
+				"variable.other.readwrite.tsx",
+				"variable.other.object.tsx",
+				"variable.other.object.property.tsx",
+				"variable.other.object.property.ts",
+				"variable.other.property.tsx",
+			],
+			"settings": {
+				"foreground": "#a7a7a7"
+			}
+		},
+		{
+			"name": "TypeScript - Function Invocation",
+			"scope": [
+				"meta.brace.round.tsx",
+				"meta.brace.round.ts",
+			],
+			"settings": {
+				"foreground": "#a481df"
+			}
+		},
+		{
+			"name": "TypeScript - Punctuation",
+			"scope": [
+				"meta.array-binding-pattern-variable.tsx punctuation.definition.binding-pattern.array.tsx",
+			],
+			"settings": {
+				"foreground": "#a481df"
+			}
+		},
 	]
 }
