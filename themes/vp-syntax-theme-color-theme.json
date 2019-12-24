@@ -371,7 +371,18 @@
 		{
 			"name": "SCSS variable",
 			"scope": [
-				"source.css.scss meta.definition.variable.scss variable.scss "
+				"source.css.scss meta.definition.variable.scss variable.scss ",
+				"variable.scss"
+			],
+			"settings": {
+				"foreground": "#d86464"
+			}
+		},
+		{
+			"name": "SCSS keywords",
+			"scope": [
+				"punctuation.definition.keyword.scss",
+				"keyword.control.at-rule.import.scss"
 			],
 			"settings": {
 				"foreground": "#d86464"
@@ -1171,5 +1182,42 @@
 				"foreground": "#a481df"
 			}
 		},
+		{
+			"name": "Styled Components - Property",
+			"scope": [
+				"source.css.scss meta.property-name.scss support.type.property-name.css",
+			],
+			"settings": {
+				"foreground": "#7aa11a"
+			}
+		},
+		{
+			"name": "Styled Components - Colon",
+			"scope": [
+				"source.css.scss punctuation.separator.key-value.scss",
+			],
+			"settings": {
+				"foreground": "#a7a7a7"
+			}
+		},
+		{
+			"name": "Styled Components - Unit",
+			"scope": [
+				"source.css.scss meta.property-value.scss keyword.other.unit.px.css",
+				"source.css.scss meta.property-list.scss meta.property-value.scss constant.numeric.css"
+			],
+			"settings": {
+				"foreground": "#ba9d2e"
+			}
+		},
+		{
+			"name": "Styled Components - &",
+			"scope": [
+				"source.css.scss entity.name.tag.reference.scss",
+			],
+			"settings": {
+				"foreground": "#5aa0e5"
+			}
+		}
 	]
 }
