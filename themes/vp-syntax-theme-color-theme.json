@@ -88,7 +88,7 @@
 				"keyword.operator.relational",
 			],
 			"settings": {
-				"foreground": "#a359a8"
+				"foreground": "#649891"
 			}
 		},
 		{
@@ -905,19 +905,29 @@
 				"punctuation.definition.block.tsx",
 				"punctuation.definition.block.ts",
 				"punctuation.separator.parameter.js",
+				"meta.brace.round.js ",
+				"punctuation.terminator.statement",
+				"meta.block.js punctuation.definition.block.js",
+				"punctuation.separator.comma.tsx",
+				"punctuation.separator.comma.ts",
+				"keyword.operator.ternary.js",
+				"meta.array.literal meta.brace.square",
+			],
+			"settings": {
+				"foreground": "#a481df"
+			}
+		},
+		{
+			"name": "JavaScript - Comparison",
+			"scope": [
 				"meta.object-literal.key.js punctuation.separator.key-value.js",
 				"punctuation.separator.key-value.ts",
 				"punctuation.definition.section.case-statement.js ",
-				"meta.brace.round.js ",
 				"keyword.operator.arithmetic.js",
 				"keyword.operator.spread.js",
 				"keyword.operator.logical.js",
 				"keyword.operator.comparison.js",
 				"keyword.operator.comparison.ts",
-				"punctuation.terminator.statement",
-				"meta.block.js punctuation.definition.block.js",
-				"punctuation.separator.comma.tsx",
-				"punctuation.separator.comma.ts",
 				"keyword.operator.assignment.tsx",
 				"keyword.operator.assignment.ts",
 				"keyword.operator.assignment.js",
@@ -925,7 +935,7 @@
 				"punctuation.definition.section.case-statement.ts",
 			],
 			"settings": {
-				"foreground": "#a481df"
+				"foreground": "#649891"
 			}
 		},
 		{
@@ -966,9 +976,30 @@
 				"variable.other.readwrite.alias.js",
 				"variable.other.object.ts",
 				"variable.other.property.ts",
+				"punctuation.accessor.js",
 			],
 			"settings": {
 				"foreground": "#a7a7a7"
+			}
+		},
+		{
+			"name": "JavaScript - Constant",
+			"scope": [
+				"variable.other.constant.object.js",
+				"variable.other.constant.property.js",
+			],
+			"settings": {
+				"foreground": "#a7a7a7"
+			}
+		},
+		{
+			"name": "JavaScript - Export",
+			"scope": [
+				"support.type.object.module.js",
+				"keyword.control.export.js",
+			],
+			"settings": {
+				"foreground": "#5aa0e5"
 			}
 		},
 		{
@@ -1054,16 +1085,6 @@
 			],
 			"settings": {
 				"foreground": "#a7a7a7"
-			}
-		},
-		{
-			"name": "JavaScript - Array, Object",
-			"scope": [
-				"meta.array.literal meta.brace.square",
-				"punctuation.accessor.js"
-			],
-			"settings": {
-				"foreground": "#649891"
 			}
 		},
 		{
