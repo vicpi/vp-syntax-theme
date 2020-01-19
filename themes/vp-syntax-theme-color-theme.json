@@ -298,7 +298,9 @@
 		{
 			"name": "CSS Classes",
 			"scope": [
-				"entity.other.attribute-name.class"
+				"entity.other.attribute-name.class",
+				"source.css.scss entity.other.attribute-name.class.css punctuation.definition.entity.css",
+				"source.css meta.selector entity.other.attribute-name.class punctuation.definition.entity"
 			],
 			"settings": {
 				"foreground": "#5aa0e5"
@@ -324,6 +326,15 @@
 			}
 		},
 		{
+			"name": "CSS Function",
+			"scope": [
+				"source.css support.function.misc"
+			],
+			"settings": {
+				"foreground": "#a7a7a7"
+			}
+		},
+		{
 			"name": "CSS String",
 			"scope": [
 				"source.css.scss meta.property-list.scss meta.property-value.scss string.quoted.double.scss punctuation.definition.string.begin.scss",
@@ -337,23 +348,23 @@
 		{
 			"name": "CSS Number",
 			"scope": [
-				"source.css.scss meta.property-list.scss meta.property-value.scss constant.numeric.css"
+				"source.css meta.property-list meta.property-value constant.numeric",
+				"source.css constant.numeric keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#a7a7a7"
+				"foreground": "#ba9d2e"
 			}
 		},
 		{
 			"name": "CSS Punctuation",
 			"scope": [
-				"source.css.scss entity.other.attribute-name.class.css punctuation.definition.entity.css",
-				"source.css.scss entity.other.attribute-name.id.css punctuation.definition.entity.css",
-				"source.css.scss meta.property-list.scss punctuation.separator.key-value.scss",
 				"source.css.scss meta.property-list.scss punctuation.terminator.rule.scss",
 				"source.css.scss meta.property-list.scss meta.property-value.scss",
 				"source.css.scss meta.property-list.scss support.constant.mathematical-symbols.scss",
 				"source.css.scss meta.definition.variable.scss punctuation.separator.key-value.scss",
-				"source.css.scss punctuation.terminator.rule.scss"
+				"source.css meta.property-list meta.property-value punctuation.separator.delimiter",
+				"source.css.scss punctuation.terminator.rule.scss",
+				"source.css meta.property-list punctuation.section.property-list"
 			],
 			"settings": {
 				"foreground": "#a7a7a7"
@@ -372,36 +383,70 @@
 			"name": "SCSS variable",
 			"scope": [
 				"source.css.scss meta.definition.variable.scss variable.scss ",
-				"variable.scss"
+				"variable.scss",
+				"variable.sass",
+				"variable.sass punctuation.definition.variable"
 			],
 			"settings": {
 				"foreground": "#d86464"
 			}
 		},
 		{
-			"name": "SCSS keywords",
+			"name": "CSS keywords",
 			"scope": [
-				"punctuation.definition.keyword.scss",
-				"keyword.control.at-rule.import.scss"
+				"source.css punctuation.definition.keyword",
+				"source.css keyword.control.at-rule.import"
 			],
 			"settings": {
 				"foreground": "#d86464"
+			}
+		},
+		{
+			"name": "CSS @import",
+			"scope": [
+				"source.css keyword.control.at-rule.import punctuation.definition.keyword",
+			],
+			"settings": {
+				"foreground": "#649891"
 			}
 		},
 		{
 			"name": "CSS Property",
 			"scope": [
-				"source.css.scss meta.property-list.scss meta.property-name.scss support.type.property-name.css"
+				"source.css.scss punctuation.separator.key-value.scss",
+				"source.css.scss meta.property-list.scss meta.property-name.scss support.type.property-name.css",
+				"source.css meta.property-list meta.property-name support.type.property-name"
 			],
 			"settings": {
 				"foreground": "#7aa11a"
 			}
 		},
 		{
+			"name": "CSS Property Delimiter",
+			"scope": [
+				"source.css meta.property-list punctuation.separator.key-value",
+			],
+			"settings": {
+				"foreground": "#a7a7a7"
+			}
+		},
+		{
 			"name": "CSS hex",
 			"scope": [
 				"source.css.scss meta.definition.variable.scss constant.other.color.rgb-value.hex.css",
-				"source.css.scss meta.definition.variable.scss constant.other.color.rgb-value.hex.css punctuation.definition.constant.css "
+				"source.css.scss meta.definition.variable.scss constant.other.color.rgb-value.hex.css punctuation.definition.constant.css ",
+				"source.css constant.other.color.rgb-value.hex punctuation.definition.constant",
+				"source.css constant.other.color.rgb-value.hex"
+			],
+			"settings": {
+				"foreground": "#a7a7a7"
+			}
+		},
+		{
+			"name": "CSS Punctuation",
+			"scope": [
+				"source.css punctuation.terminator.rule",
+				"source.css punctuation.section.function"
 			],
 			"settings": {
 				"foreground": "#a7a7a7"
@@ -1218,7 +1263,7 @@
 				"source.css.scss punctuation.separator.key-value.scss",
 			],
 			"settings": {
-				"foreground": "#a7a7a7"
+				"foreground": "#7aa11a"
 			}
 		},
 		{
