@@ -1295,6 +1295,80 @@
 			"settings": {
 				"foreground": "#5aa0e5"
 			}
+		},
+		{
+			"name": "PHP - variable",
+			"scope": [
+				"variable.other.php",
+				"variable.language.this.php",
+				"punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#9c8957",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "PHP - class name",
+			"scope": [
+				"storage.type.php",
+				"entity.other.inherited-class.php",
+			],
+			"settings": {
+				"foreground": "#a7a7a7",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "PHP - arguments",
+			"scope": [
+				"punctuation.definition.parameters",
+				"punctuation.definition.begin",
+				"punctuation.definition.end",
+				"punctuation.definition.arguments",
+			],
+			"settings": {
+				"foreground": "#a7a7a7"
+			}
+		},
+		{
+			"name": "PHP - operators",
+			"scope": [
+				"punctuation.separator.delimiter.php",
+				"keyword.operator.assignment.php",
+				"keyword.operator.key.php",
+				"keyword.operator.class.php",
+				"punctuation.terminator.expression.php",
+				"punctuation.definition.class.end.bracket.curly.php",
+				"punctuation.definition.class.begin.bracket.curly.php",
+			],
+			"settings": {
+				"foreground": "#a7a7a7",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "PHP - keyword",
+			"scope": [
+				"keyword.other.use.php",
+				"storage.type.class.php",
+				"storage.modifier.extends.php",
+			],
+			"settings": {
+				"foreground": "#d86464"
+			}
+		},
+		{
+			"name": "PHP - string",
+			"scope": [
+				"string.quoted.single.php",
+				"punctuation.definition.string.begin.php",
+				"punctuation.definition.string.end.php",
+				"string.quoted.double.php",
+			],
+			"settings": {
+				"foreground": "#5aa0e5"
+			}
 		}
 	]
 }
