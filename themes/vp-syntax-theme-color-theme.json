@@ -1249,6 +1249,17 @@
 			}
 		},
 		{
+			"name": "TypeScript - Keyword",
+			"scope": [
+				"variable.language.super.tsx",
+				"variable.language.this.tsx",
+			],
+			"settings": {
+				"foreground": "#d86464",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "Styled Components - Property",
 			"scope": [
 				"source.css.scss meta.property-name.scss support.type.property-name.css",
