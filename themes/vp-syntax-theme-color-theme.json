@@ -1300,8 +1300,9 @@
 			"name": "PHP - variable",
 			"scope": [
 				"variable.other.php",
+				"variable.other.class.php",
 				"variable.language.this.php",
-				"punctuation.definition.variable.php"
+				"punctuation.definition.variable.php",
 			],
 			"settings": {
 				"foreground": "#9c8957",
@@ -1341,6 +1342,8 @@
 				"punctuation.terminator.expression.php",
 				"punctuation.definition.class.end.bracket.curly.php",
 				"punctuation.definition.class.begin.bracket.curly.php",
+				"keyword.operator.return-value.php",
+				"keyword.operator.comparison.php",
 			],
 			"settings": {
 				"foreground": "#a7a7a7",
@@ -1353,6 +1356,8 @@
 				"keyword.other.use.php",
 				"storage.type.class.php",
 				"storage.modifier.extends.php",
+				"keyword.other.namespace.php",
+				"keyword.other.new.php",
 			],
 			"settings": {
 				"foreground": "#d86464"
@@ -1365,9 +1370,53 @@
 				"punctuation.definition.string.begin.php",
 				"punctuation.definition.string.end.php",
 				"string.quoted.double.php",
+				"string.regexp.single-quoted.php",
 			],
 			"settings": {
 				"foreground": "#5aa0e5"
+			}
+		},
+		{
+			"name": "PHP - punctuation",
+			"scope": [
+				"punctuation.section.array.begin.php",
+				"punctuation.section.array.end.php",
+			],
+			"settings": {
+				"foreground": "#a7a7a7"
+			}
+		},
+		{
+			"name": "PHP - special",
+			"scope": [
+				"constant.language.php",
+			],
+			"settings": {
+				"foreground": "#d86464",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "PHP - number",
+			"scope": [
+				"constant.numeric.decimal.php"
+			],
+			"settings": {
+				"foreground": "#a7a7a7",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "PHP - comment",
+			"scope": [
+				"keyword.other.phpdoc.php",
+				"keyword.other.type.php",
+				"meta.other.type.phpdoc.php support.class.php",
+				"meta.other.type.phpdoc.php support.class.builtin.php",
+				"meta.other.type.phpdoc.php support.class.builtin.php punctuation.separator.inheritance.php",
+			],
+			"settings": {
+				"foreground": "#546e7a"
 			}
 		}
 	]
