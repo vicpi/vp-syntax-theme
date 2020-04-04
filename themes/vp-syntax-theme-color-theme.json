@@ -535,7 +535,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#D19A66"
+				"foreground": "#b56469"
 			}
 		},
 		{
@@ -544,7 +544,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#D19A66"
+				"foreground": "#b56469"
 			}
 		},
 		{
@@ -553,7 +553,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#D19A66"
+				"foreground": "#b56469"
 			}
 		},
 		{
@@ -626,7 +626,7 @@
 				"source.json meta.structure.dictionary.json string.json support.type.property-name.json punctuation.support.type.property-name.begin.json"
 			],
 			"settings": {
-				"foreground": "#D19A66"
+				"foreground": "#b56469"
 			}
 		},
 		{
@@ -1001,10 +1001,14 @@
 				"keyword.control.as.js",
 				"keyword.control",
 				"variable.language.this.js",
-				"variable.language.super.js"
+				"variable.language.super.js",
+				"keyword.control.import.js",
+				"storage.type.function.js",
+				"keyword.control.from.js",
+				"keyword.control.conditional.js",
 			],
 			"settings": {
-				"foreground": "#d86464",
+				"foreground": "#b56469",
 				"fontStyle": ""
 			}
 		},
@@ -1044,7 +1048,7 @@
 				"keyword.control.export.js",
 			],
 			"settings": {
-				"foreground": "#5aa0e5"
+				"foreground": "#b56469"
 			}
 		},
 		{
@@ -1088,7 +1092,7 @@
 				"source.js meta.var.expr.js storage.type.js"
 			],
 			"settings": {
-				"foreground": "#d86464"
+				"foreground": "#b56469"
 			}
 		},
 		{
@@ -1111,7 +1115,7 @@
 				"constant.language.boolean.true.js"
 			],
 			"settings": {
-				"foreground": "#d86464"
+				"foreground": "#b56469"
 			}
 		},
 		{
@@ -1255,7 +1259,7 @@
 				"variable.language.this.tsx",
 			],
 			"settings": {
-				"foreground": "#d86464",
+				"foreground": "#b56469",
 				"fontStyle": ""
 			}
 		},
@@ -1358,9 +1362,12 @@
 				"storage.modifier.extends.php",
 				"keyword.other.namespace.php",
 				"keyword.other.new.php",
+				"storage.modifier.php",
+				"storage.type.function.php",
+				"keyword.control.return.php",
 			],
 			"settings": {
-				"foreground": "#d86464"
+				"foreground": "#b56469"
 			}
 		},
 		{
@@ -1390,9 +1397,11 @@
 			"name": "PHP - special",
 			"scope": [
 				"constant.language.php",
+				"keyword.operator.logical.php",
+				"keyword.operator.nullable-type.php",
 			],
 			"settings": {
-				"foreground": "#d86464",
+				"foreground": "#b56469",
 				"fontStyle": ""
 			}
 		},
