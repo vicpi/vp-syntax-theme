@@ -112,7 +112,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#7aa11a"
+				"foreground": "#739818"
 			}
 		},
 		{
@@ -163,7 +163,7 @@
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#C2A536"
+				"foreground": "#b29731"
 			}
 		},
 		{
@@ -261,7 +261,7 @@
 				"text.html.derivative entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#7aa11a"
+				"foreground": "#739818"
 			}
 		},
 		{
@@ -418,7 +418,7 @@
 				"source.css meta.property-list meta.property-name support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#7aa11a"
+				"foreground": "#739818"
 			}
 		},
 		{
@@ -616,7 +616,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json"
 			],
 			"settings": {
-				"foreground": "#7aa11a"
+				"foreground": "#739818"
 			}
 		},
 		{
@@ -636,7 +636,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.end.json"
 			],
 			"settings": {
-				"foreground": "#7aa11a"
+				"foreground": "#739818"
 			}
 		},
 		{
@@ -926,7 +926,7 @@
 				"text.html.handlebars meta.tag.structure.any.html entity.other.attribute-name.html entity.other.attribute-name.generic"
 			],
 			"settings": {
-				"foreground": "#7aa11a"
+				"foreground": "#739818"
 			}
 		},
 		{
@@ -1006,6 +1006,7 @@
 				"storage.type.function.js",
 				"keyword.control.from.js",
 				"keyword.control.conditional.js",
+				"keyword.operator.new.js",
 			],
 			"settings": {
 				"foreground": "#b56469",
@@ -1073,7 +1074,7 @@
 				"variable.parameter.ts",
 			],
 			"settings": {
-				"foreground": "#D19A66"
+				"foreground": "#cb8e55"
 			}
 		},
 		{
@@ -1083,7 +1084,7 @@
 				"support.function.js"
 			],
 			"settings": {
-				"foreground": "#7aa11a"
+				"foreground": "#739818"
 			}
 		},
 		{
@@ -1124,7 +1125,7 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#ba9d2e"
+				"foreground": "#b29731"
 			}
 		},
 		{
@@ -1158,7 +1159,7 @@
 				"entity.name.tag.tsx support.class.component.tsx",
 			],
 			"settings": {
-				"foreground": "#5aa0e5"
+				"foreground": "#4191e1"
 			}
 		},
 		{
@@ -1215,7 +1216,21 @@
 				"entity.name.type.ts",
 			],
 			"settings": {
-				"foreground": "#5aa0e5"
+				"foreground": "#4191e1"
+			}
+		},
+		{
+			"name": "TypeScript - operator",
+			"scope": [
+				"keyword.operator.arithmetic.ts",
+				"keyword.operator.arithmetic.tsx",
+				"keyword.operator.logical.ts",
+				"keyword.operator.logical.tsx",
+				"keyword.operator.ternary.ts",
+				"keyword.operator.ternary.tsx",
+			],
+			"settings": {
+				"foreground": "#b56469"
 			}
 		},
 		{
@@ -1244,9 +1259,21 @@
 			}
 		},
 		{
+			"name": "TypeScript - String",
+			"scope": [
+				"punctuation.definition.string.begin.tsx",
+				"punctuation.definition.string.end.tsx",
+				"string.quoted.single.tsx",
+			],
+			"settings": {
+				"foreground": "#b29731"
+			}
+		},
+		{
 			"name": "TypeScript - Punctuation",
 			"scope": [
 				"meta.array-binding-pattern-variable.tsx punctuation.definition.binding-pattern.array.tsx",
+				"keyword.operator.assignment.ts",
 			],
 			"settings": {
 				"foreground": "#a481df"
@@ -1255,8 +1282,31 @@
 		{
 			"name": "TypeScript - Keyword",
 			"scope": [
+				"variable.language.super.ts",
 				"variable.language.super.tsx",
 				"variable.language.this.tsx",
+				"keyword.control.import.ts",
+				"keyword.control.import.tsx",
+				"keyword.control.from.ts",
+				"keyword.control.from.tsx",
+				"keyword.control.export.ts",
+				"keyword.control.export.tsx",
+				"storage.type.function.ts",
+				"storage.type.function.tsx",
+				"storage.type.interface.ts",
+				"storage.type.interface.tsx",
+				"storage.type.enum.ts",
+				"storage.type.enum.tsx",
+				"storage.modifier.async.ts",
+				"storage.modifier.async.tsx",
+				"storage.type.ts",
+				"storage.type.tsx",
+				"keyword.operator.spread.ts",
+				"keyword.operator.spread.tsx",
+				"keyword.generator.asterisk.ts",
+				"keyword.generator.asterisk.tsx",
+				"keyword.control.conditional.ts",
+				"keyword.control.conditional.tsx",
 			],
 			"settings": {
 				"foreground": "#b56469",
@@ -1269,7 +1319,7 @@
 				"source.css.scss meta.property-name.scss support.type.property-name.css",
 			],
 			"settings": {
-				"foreground": "#7aa11a"
+				"foreground": "#739818"
 			}
 		},
 		{
@@ -1278,7 +1328,7 @@
 				"source.css.scss punctuation.separator.key-value.scss",
 			],
 			"settings": {
-				"foreground": "#7aa11a"
+				"foreground": "#739818"
 			}
 		},
 		{
