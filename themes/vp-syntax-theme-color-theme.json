@@ -92,6 +92,15 @@
 			}
 		},
 		{
+			"name": "Template expression",
+			"scope": [
+				"punctuation.definition.template-expression",
+			],
+			"settings": {
+				"foreground": "#b56469"
+			}
+		},
+		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
@@ -144,7 +153,8 @@
 				"constant.escape",
 				"variable.parameter",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"meta.jsx.children",
 			],
 			"settings": {
 				"foreground": "#a7a7a7"
@@ -176,6 +186,7 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
+				"entity.other.inherited-class",
 				"support.type.sys-types"
 			],
 			"settings": {
@@ -1007,6 +1018,11 @@
 				"keyword.control.from.js",
 				"keyword.control.conditional.js",
 				"keyword.operator.new.js",
+				"keyword.operator.expression.typeof",
+				"storage.type.type",
+				"keyword.operator.optional",
+				"storage.type.class",
+				"storage.modifier",
 			],
 			"settings": {
 				"foreground": "#b56469",
@@ -1036,7 +1052,7 @@
 			"name": "JavaScript - Constant",
 			"scope": [
 				"variable.other.constant.object.js",
-				"variable.other.constant.property.js",
+				"variable.other.constant.property",
 			],
 			"settings": {
 				"foreground": "#a7a7a7"
@@ -1047,6 +1063,7 @@
 			"scope": [
 				"support.type.object.module.js",
 				"keyword.control.export.js",
+				"keyword.control.default",
 			],
 			"settings": {
 				"foreground": "#b56469"
@@ -1159,7 +1176,7 @@
 				"entity.name.tag.tsx support.class.component.tsx",
 			],
 			"settings": {
-				"foreground": "#4191e1"
+				"foreground": "#9c8957"
 			}
 		},
 		{
@@ -1214,6 +1231,7 @@
 				"keyword.operator.type.annotation.ts",
 				"support.type.primitive.ts",
 				"entity.name.type.ts",
+				"support.type.primitive",
 			],
 			"settings": {
 				"foreground": "#4191e1"
